@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+	h2 Bulletin Messages
+	each message in messages
+		h4.list-group-item.messagetitle= message.title
+			p.messagetext= message.body
+	a.btn.btn-default.btn-primary(href="/bulletinboard") Back		

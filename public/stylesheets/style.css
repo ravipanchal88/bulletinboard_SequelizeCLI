@@ -1,0 +1,57 @@
+body {
+  padding: 25px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.bodycon {
+  padding: 5px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 400px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgrey;
+}
+
+.btn1 {
+	border:1px solid grey;
+	border-radius: 3px;
+	margin:5px ;
+	font-color: white;
+}
+
+.btn {
+	margin:5px ;
+	font-color: white;
+}
+
+.messagetitle {
+	color:grey;
+}
+
+.textarea {
+	min-height:200px; 
+}
+
+.messagetext {
+	color:black;
+	font-size: medium;
+	padding:5px;
+
+}
+
+.formbody{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+}
+
